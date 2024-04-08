@@ -3,3 +3,12 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- namespace.yaml
+- 01-mysql_storageclass.yaml
+- 02-mysql_secret.yam
+- 03-mysql_pvc.yaml
+- 04-mysql_deployment.yaml
+- 05-mysql_service.yaml
+- 06-config-map.yaml
+- 07-appdeployment.yaml
+- 08-service.yaml
