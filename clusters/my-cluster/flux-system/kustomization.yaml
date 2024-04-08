@@ -4,7 +4,7 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - namespace.yaml
-- 02-mysql_secret.yam;
+- 02-mysql_secret.yaml
 - 03-mysql_pvc.yaml
 - 04-mysql_deployment.yaml
 - 05-mysql_service.yaml
