@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: appconfigmap
+  namespace: final1
+data:
+  DBPORT: "3306"
+  DBHOST: "mysql.final1.svc.cluster.local"
+  backgroundimage: "photo1.png"
+  bucketname: "clo835group1"
+  groupName: "BESTGROUP"
